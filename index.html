@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-image">
+    <div class="mypage"> 
+        <div class="navbar">
+        <nav>
+            <a href="#"><img src="img/mabbyprofile.jpg" class="logo"></a>
+            <ul id="MenuItem">
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><button class="loginbtn" onclick="document.getElementById('login-form').style.display='block'"
+                    style="width:auto;">Login</button>
+                 </li>
+            </ul>
+        </nav>
+        </div>
+        <div class="detail">
+            <h1>Hi! I am Maviel My Segurog</h1>
+            <p>
+                This is a Portfolio website that shows my personal information. 
+                <br> In this website, you will learn who I am by reading the information provided here. 
+            </p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>Mabby's Skills list</h2> <br>
+            <ul class="skill">
+                <li>Cleaning</li>
+                <li>begginer artist</li>
+                <li>Cooking</li>
+                <li>Writer</li>
+              </ul>
+              <br>
+              <br>
+              <h2>Mabby's Experience</h2> <br>
+            <ul class="experience">
+                <li>I Have been taught to clean since childhood</li>
+                <li>I have been practicing drawing since I was a child because I have a passion for it</li>
+                <li>Self practice because no one would teach me</li>
+                <li>Loves writing since junior high school. I was inspired by reading wattpad and online novels</li>
+              </ul>
+            </div>
+        </div>
+        <div id='login-form' class='login-page'>
+            <div class="form-box">
+                <div class='button-box'>
+                    <div id='btn'></div>
+                    <button type='button'onclick='Login()'class='toggle-btn'>Log in</button>
+                    <button type='button'onclick='Register()'class='toggle-btn'>Register</button>
+    </div>
+    <!---Login form--->
+    <form id='login'class='input-group-login'>
+        <input type='text'class='input-field'placeholder='Email ID'required>
+        <input type='password'class='input-field'placeholder='Enter Password'required>
+        <input type='checkbox'class='check-box'><span>Remember Password</span>
+        <button type='submit'class='submit-btn'>Log in</button>
+    </form>
+    <form id="register"class="input-group-register">
+        <input type="text"class="input-field"placeholder="First Name"required>
+        <input type="text"class="input-field"placeholder="Last Name"required>
+        <input type="email"class="input-field"placeholder="Email ID"required>
+        <input type="checkbox"class="check-box"><span>I agree to the terms and conditions</span>
+        <button type="submit"class="submit-btn">Register</button>
+</body>
+</html>

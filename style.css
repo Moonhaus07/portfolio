@@ -1,0 +1,234 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+img.logo
+{
+    height: 35%;
+    width: 15%;
+    position: absolute; top: 10pt; left: 25pt;
+    
+
+}
+.background-image
+{
+    background-image: url('./img/flowers_pink_plant_198460_1600x1200.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150%;
+    height: 160vh;
+}
+.detail
+{
+    margin-left: 8%;
+    margin-top: 15%;
+    color: white;
+}
+
+ul.skill
+{
+    list-style-type: square;
+    color: white;
+    font-size: 25px;
+}
+ul.experience
+{
+    list-style-type: square;
+    color: white;
+    font-size: 25px;
+}
+.mypage
+{
+    height: 100%;
+    width: 100%;
+    background-image: white;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul
+{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 70px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+nav ul li button
+{
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-family: sans-serif;
+}
+nav ul li button:hover
+{
+    color: hotpink;
+}
+nav ul li a:hover
+{
+    color: hotpink;
+}
+a
+{
+    text-decoration: none;
+    color: hotpink;
+    font-size: 28px;
+}
+
+#login-form
+{
+    display: none;
+}
+
+.form-box
+{
+    width: 380px;
+    height: 480px;
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+    margin: 2% auto;
+    padding: 10px;
+    overflow: hidden;
+    background-image: url('./img/flowers_pink_plant_198460_1600x1200.jpg');
+}
+.button-box
+{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #d68f731f;
+    border-radius: 30px;
+}
+.toggle-btn
+{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 1;
+    border-color: hotpink;
+    color: white;
+    outline: none;
+    position: relative;
+}
+#btn
+{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100px;
+    background: transparent;
+    color: white;
+    border-radius: 30px;
+    transition: .5s;
+}
+.input-group-login
+{
+    top: 150px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+    color: white;
+}
+.input-group-register
+{
+    top: 120px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+    color: white;
+}
+.input-field
+{
+    width: 100px;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid hotpink;
+    color: white;
+    outline: none;
+    background: transparent;
+}
+.submit-btn
+{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 1;
+    border-color: hotpink;
+    outline: none;
+    border-radius: 30px;
+}
+.submit-btn:hover
+{
+    color: hotpink;
+}
+.check-box
+{
+    margin: 30px 10px 34px 0;
+}
+span 
+{
+    color: white;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+#login
+{
+    left: 50px;
+}
+#login input
+{
+    color: white;
+    font-size: 15;
+}
+#register
+{
+    left: 450px;
+}
+#register input
+{
+    color: white;
+    font-size: 15;
+}
